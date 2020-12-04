@@ -22,6 +22,7 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
     }
 
     private void makeEmptyUtil(BinaryNode<E> tree) {
+
         if (tree == null) {
             return;
         }
