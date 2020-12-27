@@ -5,11 +5,11 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-public class TraveseDirectoryTest extends TestCase {
+public class TraveseDirectoryTest {
     @Test
     public void testDir(){
         TraveseDirectory dirs = new TraveseDirectory();
-        ArrayList<String> items = dirs.listDir("/home/xiaozhi/workspace");
+        ArrayList<String> items = dirs.listDir("f:\\code\\java");
         System.out.println(items);
     }
 
